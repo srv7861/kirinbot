@@ -10,8 +10,8 @@ from telegram.ext import (
     CallbackQueryHandler, ConversationHandler, ContextTypes, filters
 )
 
-BOT_TOKEN = os.getenv('BOT_TOKEN')
-FORWARD_CHAT_ID = int(os.getenv('FORWARD_CHAT_ID'))
+BOT_TOKEN = '7997418992:AAG5S1JVazuQS1xKQeWf2oASF-jwnhKLRas'
+FORWARD_CHAT_ID = 1164872254  # Replace with your personal chat ID
 
 USDT_AMOUNT, FUND_TYPE, CONFIRM_EXCHANGE, BANK_DETAILS, SCREENSHOT_UPLOAD, LANG_SELECTION = range(6)
 
